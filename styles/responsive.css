@@ -2,6 +2,18 @@
 -----------------------*/
 @media screen and (max-width:425px) {
   
+  .nav-container, .nav-items{
+    flex-direction: column;
+  }
+  .nav-logo-container{
+    width:100%;
+    justify-content: center;
+  }
+  .nav-items{
+    width:100%;
+    margin:2rem auto;
+  }
+  
 }
 
 
@@ -11,5 +23,17 @@
 --------------------- */
 
 @media screen and (min-width:425.1px) and (max-width:768px) {
-  
+  .nav-container, .nav-items{
+    flex-direction: column;
+  }
+  .nav-logo-container{
+    width:100%;
+    justify-content: center;
+  }
+  .nav-items{
+    width:100%;
+    margin:2rem auto;
+  }
+
+
 }
